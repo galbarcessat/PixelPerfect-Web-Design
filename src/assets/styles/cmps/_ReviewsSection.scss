@@ -1,0 +1,86 @@
+.reviews-sections-container {
+    grid-column: 1/-1;
+    height: 745px;
+    background-color: $clrDeepJungleGreen;
+}
+
+.reviews-sections-inner-container {
+    grid-column: 2;
+}
+
+.reviews-main-txt {
+    color: white;
+    font-family: LivvicBold;
+    font-size: rem(48px);
+    text-align: center;
+    width: 932px;
+    margin-inline: auto;
+    margin-top: 140px;
+
+    span {
+        color: $clrLightBlue;
+    }
+}
+
+.reviews-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: rem(30px);
+}
+
+.review-card {
+    height: 320px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    p {
+        color: white;
+        font-family: LivvicSemiBold;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+
+    }
+
+    .quote-img {
+        position: absolute;
+    }
+
+    .review-card-main-txt {
+        position: relative;
+        z-index: 10;
+        margin-top: 35px;
+
+    }
+
+    .person-role-txt {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    h1 {
+        color: $clrLightBlue;
+        font-size: rem(18px);
+        margin: 0;
+    }
+
+    .person-img {
+        width: 60px;
+        height: 60px;
+        border: 2px solid #c4fffe;
+        border-radius: 50%;
+    }
+}

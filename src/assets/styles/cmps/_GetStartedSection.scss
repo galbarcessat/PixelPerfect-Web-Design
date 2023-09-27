@@ -1,0 +1,29 @@
+.get-started-section {
+    grid-column: 1/-1;
+    background-color: $clrPrimaryPink;
+    height: 200px;
+
+    img {
+        grid-column: 1;
+        grid-row: 1;
+        justify-self: start;
+        align-self: end;
+    }
+}
+
+.get-started-inner-container {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h1 {
+        color: $clrStateGreen;
+        font-family: LivvicBold;
+        font-size: 48px;
+    }
+
+    button {
+        @include btn($bgc : rgba(255, 255, 255, 0), $color : $clrStateGreen, $borderColor : $clrStateGreen)
+    }
+}

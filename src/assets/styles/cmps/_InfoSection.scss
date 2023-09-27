@@ -1,0 +1,65 @@
+.info-section-container {
+    grid-column: 1/-1;
+    height: 685px;
+    background-color: $clrStateGreen;
+    color: white;
+
+    .InfoSectionCircleImg {
+        grid-column: 3;
+        align-self: end;
+        margin-left: 70px;
+    }
+}
+
+.info-section-inner-container {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 140px 545px;
+
+}
+
+.cards-container {
+    grid-row: 2;
+    margin-top: 70px;
+
+    h1 {
+        color: $clrPrimaryPink;
+    }
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: LivvicSemiBold;
+    margin-bottom: 35px;
+
+    div {
+        width: 445px;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 15px;
+        opacity: 0.8;
+        margin: 0;
+    }
+}
+
+.main-txt-container {
+    grid-row: 2;
+    width: 445px;
+
+    p {
+        font-family: LivvicBold;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: left;
+    }
+}

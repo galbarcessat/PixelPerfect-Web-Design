@@ -1,0 +1,33 @@
+.header-container {
+    background-color: $clrPrimaryGreen ;
+    grid-column: 1/-1;
+    height: 125px
+}
+
+.header-inner-container {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 2;
+    align-items: end;
+    color: white;
+
+    div {
+        display: flex;
+        align-items: center;
+        font-family: LivvicSemiBold;
+        gap: 40px;
+
+        img {
+            margin-right: 40px;
+
+        }
+
+        span {
+            font-size: rem(18px);
+        }
+    }
+}
+
+.btn-header {
+    @include btn($bgc : rgba(255, 255, 255, 0), $color : white)
+}
