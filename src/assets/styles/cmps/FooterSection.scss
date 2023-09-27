@@ -29,9 +29,6 @@
     max-width: fit-content;
 
     span {
-        // display: flex;
-        // justify-content: space-between;
-        // align-items: center;
         margin-inline: 25px;
         font-family: LivvicSemiBold;
         font-size: 18px;
@@ -46,6 +43,10 @@
     justify-content: center;
     opacity: 0.6;
     max-width: fit-content;
+
+    span {
+        line-height: 25px;
+    }
 
 }
 

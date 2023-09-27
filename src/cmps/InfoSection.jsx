@@ -1,4 +1,4 @@
-import InfoSectionCircleImg from '../assets/imgs/bg-pattern-about-4.svg'
+import InfoSectionCircleImg from '../assets/imgs/bg-pattern-home-3.svg'
 import RectanglePink from '../assets/imgs/RectanglePink.png'
 import PersonIcon from '../assets/imgs/icon-person.svg'
 import ChartIcon from '../assets/imgs/icon-chart.svg'

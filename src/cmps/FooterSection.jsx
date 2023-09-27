@@ -29,8 +29,8 @@ export function FooterSection() {
                 <div className='icons-container'>
                     <div>
                         <img className='social-icon' src={FacebookImg} alt="" />
-                        <img className='social-icon' src={TwitterImg} alt="" />
                         <img className='social-icon' src={PinterestImg} alt="" />
+                        <img className='social-icon' src={TwitterImg} alt="" />
                     </div>
                     <p>Copyright 2020. All Rights Reserved</p>
                 </div>

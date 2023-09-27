@@ -2,11 +2,12 @@
     grid-column: 1/-1;
     height: 745px;
     background-color: $clrDeepJungleGreen;
+
+    .reviews-sections-inner-container {
+        grid-column: 2;
+    }
 }
 
-.reviews-sections-inner-container {
-    grid-column: 2;
-}
 
 .reviews-main-txt {
     color: white;

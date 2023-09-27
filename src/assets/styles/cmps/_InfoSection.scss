@@ -3,6 +3,8 @@
     height: 685px;
     background-color: $clrStateGreen;
     color: white;
+    overflow-x: hidden;
+
 
     .InfoSectionCircleImg {
         grid-column: 3;
@@ -30,10 +32,12 @@
 
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 25px;
     align-items: center;
     font-family: LivvicSemiBold;
     margin-bottom: 35px;
+    
 
     div {
         width: 445px;
@@ -49,6 +53,8 @@
         font-size: 15px;
         opacity: 0.8;
         margin: 0;
+        line-height: 25px;
+
     }
 }
 
